@@ -1,0 +1,6 @@
+name: lord_voice
+description: Premium Voice Chat
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
