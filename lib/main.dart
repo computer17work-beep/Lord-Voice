@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home_screen.dart';
 import 'theme/app_theme.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const LordVoiceApp());
@@ -16,7 +16,7 @@ class LordVoiceApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Lord Voice',
       theme: AppTheme.dark,
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
