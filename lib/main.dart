@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'screens/home_screen.dart';
+import 'theme/app_theme.dart';
 
 void main() {
   runApp(const LordVoiceApp());
@@ -10,9 +12,11 @@ class LordVoiceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      title: 'Lord Voice',
+      theme: AppTheme.dark,
+      home: const HomeScreen(),
     );
   }
 }
